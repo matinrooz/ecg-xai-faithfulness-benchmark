@@ -111,7 +111,7 @@ def build_arrays(df_subset, data_root, low=0.5, high=40.0, order=4, max_n=None, 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--data_root", type=str, default=DATA_ROOT_DEFAULT)
-    ap.add_argument("--out_dir", type=str, default=os.path.expanduser("~/master_thesis/data/processed/ptbxl_lr_5class"))
+    ap.add_argument("--out_dir", type=str, default=os.path.expanduser("~/ecg_xai_benchmark/data/processed/ptbxl_lr_5class"))
     ap.add_argument("--max_train", type=int, default=None)
     ap.add_argument("--max_val", type=int, default=None)
     ap.add_argument("--max_test", type=int, default=None)

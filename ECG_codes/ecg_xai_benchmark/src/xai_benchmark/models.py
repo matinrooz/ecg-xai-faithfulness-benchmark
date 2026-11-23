@@ -27,7 +27,7 @@ class ECGCNN1D_Baseline(nn.Module):
 
 
 class ECGCNN1D_Deeper(nn.Module):
-    #3-block CNN with BatchNorm that we used in our thesis
+    #3-block CNN with BatchNorm that we used in the experiments
 
     def __init__(self, in_ch: int = 12, num_classes: int = 2, dropout: float = 0.2):
         super().__init__()

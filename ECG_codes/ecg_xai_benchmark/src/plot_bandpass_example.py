@@ -1,5 +1,5 @@
 
-#Reproduce the band-pass filtering illustration (thesis Figure 14):
+#Reproduce the band-pass filtering illustration (Figure 14 of the report):
 
 
 import os

@@ -1,7 +1,7 @@
 """
 Deep Taylor Decomposition with the z+ rule.
 
-CNN models as we discused in the thesis are decomposed layer by layer back to the input.
+CNN models as described in the report are decomposed layer by layer back to the input.
 For the CNN-LSTM model the recurrent gates have no clean DTD rule, so we fall back
 to gradient x input at the CNN/LSTM boundary and only apply z+ inside the CNN.
 

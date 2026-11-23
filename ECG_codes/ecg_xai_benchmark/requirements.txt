@@ -1,5 +1,5 @@
-# Python dependencies for the ECG XAI thesis project.
-# Versions pinned to the environment used to produce the thesis results
+# Python dependencies for the ECG XAI project.
+# Versions pinned to the environment used to produce the reported results
 # (sciCORE "ecg-env", Python 3.10). Install with:
 #     pip install -r requirements.txt
 

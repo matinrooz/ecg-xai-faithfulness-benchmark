@@ -142,7 +142,7 @@ def main():
     ap.add_argument(
         "--out_dir",
         type=str,
-        default=os.path.expanduser("~/master_thesis/data/processed/ptbxl_lr_binary_norm_mi"),
+        default=os.path.expanduser("~/ecg_xai_benchmark/data/processed/ptbxl_lr_binary_norm_mi"),
     )
     ap.add_argument("--max_train", type=int, default=None)
     ap.add_argument("--max_val", type=int, default=None)
